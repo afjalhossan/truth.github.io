@@ -1,0 +1,176 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a,a:hover { text-decoration: none; color: inherit}
+
+
+
+.prom-box-wrap {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.fullwidth-box-area .container-fluid {
+    margin-left: -15px;
+}
+.sigle-promo-box {
+    display: table;
+    float: left;
+    height: 322px;
+    text-align: center;
+    width: 50%;
+}
+.promo-box-table-cell {
+    display: table-cell;
+    padding-top: 40px;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+}
+.promo-icon::before {
+    font-size: 70px;
+    margin-left: 0;
+}
+.promo-box-table-cell h4 {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: capitalize;
+}
+.promo-box-table-cell h4::after {
+    background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+
+.single-promo-box .promo-btn {
+    opacity: 0;
+    visibility: hidden;
+}
+.promo-box-btn {
+     background: #77b5c8 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.sigle-promo-box:nth-child(2), .sigle-promo-box:nth-child(3) {
+    color: #fff;
+}
+.sigle-promo-box:nth-child(2) h4::after, .sigle-promo-box:nth-child(3) h4::after {
+    background: #fff none repeat scroll 0 0;
+}
+.sigle-promo-box:nth-child(2) {
+    background: #de8f9a none repeat scroll 0 0;
+}
+.sigle-promo-box:nth-child(3) {
+    background: #77b5c8 none repeat scroll 0 0;
+}
+.sigle-promo-box:hover .promo-box-table-cell {
+    padding-top: 0;
+}
+.sigle-promo-box:hover .promo-box-btn {
+    opacity: 1;
+    visibility: visible;
+}
+.sigle-promo-box:nth-child(1) .promo-icon {
+    color: #de8f9a;
+}
+.sigle-promo-box:nth-child(1) .promo-box-btn {
+    background: #de8f9a;
+}
+.sigle-promo-box:nth-child(4) .promo-icon {
+    color: #77b5c8;
+}
+.sigle-promo-box:nth-child(1) h4::after {
+    background: #de8f9a;
+}
+.sigle-promo-box:nth-child(4) h4:after {
+    background: #77b5c8;
+}
+.sigle-promo-box:nth-child(2) .promo-box-btn,.sigle-promo-box:nth-child(3) .promo-box-btn {
+    background: #fff;
+    color: #000;
+}
+
+
+
+.slide-right-content > h4 {
+    color: #77b5c8;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.slide-right-content h2 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.slide-right-content h3 {
+    color: #535e6d;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.slide-right-content {
+    line-height: 1.9;
+    padding: 123px 50px;
+}
+.slide-btn {
+    border: 1px solid #77b5c8;
+    border-radius: 50px;
+    color: #77b5c8;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 40px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.slide-btn:hover {
+    background: #77b5c8 none repeat scroll 0 0;
+    color: #fff;
+}
+.slide-btn-grp {
+    margin-top: 30px;
+}
+.slide-btn:first-child {
+    margin-right: 25px;
+}
