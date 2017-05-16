@@ -1,0 +1,94 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a,a:hover { text-decoration: none; color: inherit}
+
+.team-bg{background-image: url(assets/img/7.jpg)}
+.team-bg-2{background-image: url(assets/img/8.jpg)}
+.team-bg-3{background-image: url(assets/img/9.jpg)}
+
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-left: -60px;
+    margin-top: 80px;
+    transform: rotate(-90deg);
+    width: 227px;
+}
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+.section-title h2::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+}
+.team-bg {
+    background-position: center top;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.bordered-conten {
+    border: 1px solid #000;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.team-title h3 {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 0 5px;
+}
+.team-title {
+    margin-top: -13px;
+}
+.bordered-conten p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.col-md-4:nth-child(2) .single-team-item {
+    margin-top: 126px;
+}
