@@ -42,6 +42,7 @@ a,a:hover { text-decoration: none; color: inherit}
 
 .single-price-box {
     float: left;
+    position: relative;
     width: 33.333%;
 }
 
