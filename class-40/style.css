@@ -41,13 +41,10 @@ a,a:hover { text-decoration: none; color: inherit}
 }
 
 .single-price-box {
-    border-right: 1px solid #555;
     float: left;
     width: 33.333%;
 }
-.single-price-box:last-child {
-    border-right: 0 none;
-}
+
 .price-boxes {
     box-shadow: 0 0 30px #444;
     overflow: hidden;
