@@ -1,0 +1,56 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+ 
+body, html {
+    height: auto;
+}
+.log {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.mainmenu {
+    text-align: center;
+}
+.hero-area-table {
+    display: block;
+    height: auto;
+}
+.hero-text {
+    padding: 140px 0 80px;
+}
+.copyright-area, .copyright-area ul {
+    padding: 10px 0;
+    text-align: center;
+}
+.copyright-area {
+    position: relative;
+}
+.email-subscribe-form input {
+    margin-bottom: 15px;
+}
+
+/*button[type="submit"] {
+    font-size: 15px;
+    padding: 7px;
+}*/
+
+    
+    
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
