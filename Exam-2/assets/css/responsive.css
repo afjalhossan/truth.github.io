@@ -1,0 +1,75 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+    .project-area {
+        padding: 0;
+    }
+    .partner-area a img {
+        margin: 0 12px;
+    }
+    .price-content {
+        padding: 80px 0;
+    }
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+    .header-menu {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .home-text {
+        padding: 234px 0 100px;
+        text-align: center;
+    }
+    .single-work-item {
+        margin-bottom: 40px;
+    }
+    .testimonial-area {
+        padding: 50px 0;
+    }
+    .testimonial-list .owl-controls .owl-dots {
+        bottom: -22px;
+    }
+    .partner-area a img {
+        margin: 0 50px 10px;
+        padding: 4px;
+    }
+   
+    
+    .project-content {
+        padding: 0;
+    }
+    .project-area {
+        padding: 0;
+    }
+    .logo {
+        text-align: center;
+    }
+    .price-list {
+      margin: 0;
+}
+
+    .footer-menu {
+        text-align: center;
+    }
+    .project-content p {
+    padding: 15px 0;
+    }
+    .project-area {
+    min-height: 230px;
+    }
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
