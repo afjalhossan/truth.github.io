@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Khula', sans-serif;
+}
+a { text-decoration: none; color: #14abf4}
+
+a:hover{text-decoration: none}
+
+.section-padding {
+    padding: 80px 0;
+}
+.single-pricing-box {
+    border: 1px solid #f3f6fa;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    padding: 80px;
+    text-align: center;
+}
+.single-pricing-box h4 {
+    font-size: 20px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+.prouduct-price {
+    color: #14abf4;
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+}
+body {
+    color: #939da7;
+    font-size: 18px;
+}
+.pricing-box-price {
+    margin-bottom: 20px;
+}
+.product-price-content ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.product-price-content li {
+    padding-bottom: 10px;
+}
+.single-pricing-box h4 span {
+    color: #70bc3c;
+    display: block;
+    font-size: 80%;
+    margin-top: 8px;
+}
+.product-price-content {
+    border-top: 1px solid #f2f6fa;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.box-btn {
+    background: #14abf4 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 8px 60px;
+    transition: all 0.3s ease 0s;
+}
+.box-btn:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+
+
+.single-pricing-box.active {
+    border-radius: 0 0 5px 5px;
+    border-top: 2px solid #68b931;
+    box-shadow: 0 6px 24px -2px;
+    padding-top: 54px;
+}
+
+
