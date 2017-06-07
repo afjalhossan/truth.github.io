@@ -1,0 +1,170 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a,a:hover { text-decoration: none; color: inherit}
+
+
+
+.dark-bg {
+    background-color: #ddd;
+    background-image: url("assets/img/bg-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.dark-bg::before {
+    background-color: rgba(0, 0, 0, 0.9);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.single-featured-item {
+    color: #636b5d;
+    font-size: 16px;
+}
+.trailor-text h1 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.trailor-text > p {
+    line-height: 1.7;
+}
+.trailor-text h1::before {
+    background: #f52a2a none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 25px;
+}
+.boxed-btn {
+    border: 2px solid #f52a2a;
+    display: inline-block;
+    font-weight: 300;
+    margin-top: 30px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    width: 175px;
+}
+.boxed-btn i.fa {
+    float: right;
+    padding-top: 3px;
+}
+.boxed-btn:hover {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    border-color: #a5a5a5;
+    color: #fff;
+}
+.trailor-img-info {
+    position: relative;
+}
+.colored-pricing-box {
+    background: #f52a2a none repeat scroll 0 0;
+    color: #fff;
+    height: 300px;
+    padding-top: 50px;
+    position: absolute;
+    right: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+.colored-pricing-box p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.colored-pricing-box .price-text {
+    color: #fff;
+    font-size: 40px;
+    opacity: 1;
+}
+.colored-pricing-box .shopping-cart {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 3px #999;
+    color: #333;
+    font-size: 16px;
+    height: 50px;
+    left: 0;
+    line-height: 50px;
+    margin-left: -25px;
+    position: absolute;
+    top: 40px;
+    width: 50px;
+}
+
+.trailor-img-info img {
+    margin-top: 115px;
+    position: absolute;
+}
+.trailor-text {
+    padding: 100px 0;
+}
+.featured-carousel .owl-dots div:nth-child(1) span:before{content: "1"}
+.featured-carousel .owl-dots div:nth-child(2) span:before{content: "2"}
+.featured-carousel .owl-dots div:nth-child(3) span:before{content: "3"}
+.featured-carousel .owl-dots div:nth-child(4) span:before{content: "4"}
+.featured-carousel .owl-dots div:nth-child(5) span:before{content: "5"}
+.featured-carousel .owl-dots div:nth-child(6) span:before{content: "6"}
+
+.featured-carousel .owl-dots div {
+    border-left: 3px solid #ddd;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.featured-carousel .owl-dots div.active {
+    border-color: red;
+    color: #757575;
+}
+.featured-carousel .owl-dots {
+    position: absolute;
+    right: -64px;
+    top: calc(50% - 120px);
+}
