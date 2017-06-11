@@ -31,6 +31,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 a,a:hover { text-decoration: none; color: inherit}
+.section-padding{
+    100px 0;
+}
 
 .testimonial-bg{background-image: url(assets/img/slider-bg.jpg);border-color: #ddd}
 
