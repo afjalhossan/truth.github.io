@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a,a:hover { text-decoration: none; color: inherit}
+
+.testimonial-bg{background-image: url(assets/img/slider-bg.jpg);border-color: #ddd}
+
+
+.testimonial-thumb img {
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 100px;
+}
+.single-testimonial-item {
+    color: #fff;
+    text-align: center;
+}
+.testimonial-thumb {
+    margin-bottom: 30px;
+}
+.testimonial-content {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 29px;
+}
+.testimonial-role {
+    margin-bottom: 0;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+.testimonial-role span {
+    display: block;
+    margin-top: 10px;
+}
+.testimonial-role span {
+    font-size: 80%;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.testemonial-carousel .owl-dots div {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    width: 15px;
+}
+.testemonial-carousel .owl-dots div.active {
+    background: #fff none repeat scroll 0 0;
+}
+.testemonial-carousel .owl-dots {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.testemonial-carousel::before,.testemonial-carousel::after{
+   color: #fff;
+    font-family: fontAwesome;
+    font-size: 30px;
+    position: absolute;
+}
+.testemonial-carousel::before {
+    content: "";
+    left: -36px;
+    top: 127px;
+}
+.testemonial-carousel::after {
+    bottom: 82px;
+    content: "";
+    right: 0;
+}
