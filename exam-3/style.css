@@ -1,0 +1,92 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+a,a:hover { text-decoration: none; color: inherit}
+
+.nebula-cont {
+    background: rgba(0, 0, 0, 0) url("assets/img/bg-1.jpg") repeat scroll 0 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.nebula-conten-wrap {
+  background: rgba(0, 0, 0, 0) url("assets/img/bg-1.jpg") repeat scroll 0 0;
+  color: #fff;
+  margin: 80px 0;
+  padding: 50px;
+}
+
+.nebula-cont::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.logo > h1 {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.nebula-content > h1 {
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.nebula-content {
+    padding: 100px 0;
+}
+.menu {
+    list-style: outside none none;
+    text-transform: capitalize;
+}
+
+
+.nebula-footer p {
+    font-size: 16px;
+}
+
+.social-link a {
+    color: #999;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 5px;
+}
+
+
+
+
+
