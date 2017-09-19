@@ -1,0 +1,128 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a,a:hover { text-decoration: none; color: inherit}
+
+body.theme-2{
+    background: #6f8ca1;
+    background: -moz-linear-gradient(left,#6f8ca1 0,#5f87a5 40%,#81839b 68%,#a57974 100%);
+    background: -webkit-linear-gradient(left,#6f8ca1 0,#5f87a5 40%,#81839b 68%,#a57974 100%);
+    background: linear-gradient(to right,#6f8ca1 0,#5f87a5 40%,#81839b 68%,#a57974 100%);
+    
+}
+body, .theme-1{
+    background: url(assets/img/sec-bg.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.theme-2 .site_wrap{
+    background: url(assets/img/sec-bg.jpg);
+}
+]
+
+
+
+.site-wrap {
+    height: 100%;
+}
+html, .theme-1 {
+    height: 100%;
+}
+.site_wrap_table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.site_wrapt_tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.header-area {
+    padding: 50px 80px;
+   
+}
+.footer-area {
+    border-top: 1px solid;
+   padding: 15px;
+
+}
+h1, h2 {
+    color: #333;
+    font-weight: 400;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.mainmenu a {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.mainmenu {
+    text-align: right;
+}
+.copywrite-text {
+    margin-top: 10px;
+    padding-left: 80px;
+}
+.social-links {
+    padding-right: 80px;
+    text-align: right;
+}
+.social-links a {
+    color: #b4b0b3;
+    font-size: 35px;
+    padding-left: 10px;
+    transition: all 0.3s ease 0s;
+}
+.main-content {
+    font-size: 16px;
+    padding-left: 80px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.main-content h2 {
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.social-links > a:hover {
+    background: #333 none repeat scroll 0 0;
+}
+
+
+
+.theme-2 .site-wrap {
+    background: #eee url("assets/img/sec-bg.jpg") repeat scroll center center / cover ;
+    margin: 5%;
+}
+
+
+
