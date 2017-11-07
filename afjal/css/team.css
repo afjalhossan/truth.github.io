@@ -1,0 +1,93 @@
+.team-inner-header{
+	background: url(../img/inner-banner.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 200px 0;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 80px;
+}
+
+.team-inner-header:after {
+    position: absolute;
+    content: '';
+    background: #000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    z-index: -1;
+}
+
+.team-inner-header h1 {
+    font-size: 70px;
+}
+
+.team-page .single-team-member {
+    margin: 15px  0;
+}
+
+.team-page ul.engaged-path li {
+    margin: 0 40px;
+}
+.team-members .owl-item:nth-child(odd){
+	background-color: transparent;
+}
+
+.load-more a {
+    background: #333;
+    color: #fff;
+    padding: 5px 20px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 17px;
+  
+}
+.team-page .single-team-member{
+	display: none;
+}
+
+.our-journey {
+    background: url(../img/satisfied-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #eee;
+    padding: 90px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.our-journey h2 span {
+    display: block;
+    font-size: 60%;
+}
+
+.our-journey h2 {
+    line-height: 50px;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.our-journey .counter {
+    border: 1px dashed #fff;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+
+.our-journey .counter i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.our-journey .counter .number {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.our-journey .counter p {
+    margin: 0;
+    font-size: 18px;
+}
