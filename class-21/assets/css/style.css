@@ -242,6 +242,10 @@ span.menu-close {
 }
 
 /*Dropdown css*/
+.header-absolute .mainmenu li li
+ a {
+    color: #666;
+}
 
 .mainmenu ul li ul {
     position: absolute;
@@ -281,64 +285,41 @@ span.menu-close {
 
 /*Mega Menu*/
 
-.mainmenu li.mega-menu {
-    position: static;
-}
 
-.mega-menu-wrapper {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 5PX #000;
-    z-index: -1;
-    transition: .3s;
-    visibility: hidden;
-    opacity: 0;
-    top: 60px;
-}
-
-.mainmenu li.mega-menu ul {
-    position: relative;
-    top: auto;
-    left: auto;
-}
-
-.mainmenu li.mega-menu .mega-menu-wrapper ul {
-    position: relative;
-    top: auto;
-    left: auto;
-    visibility: visible;
-    opacity: 1;
-
-}
-
-.mainmenu li:hover .mega-menu-wrapper {
-    visibility: visible;
-    opacity: 1;
-    top: 40px;
-    z-index: 99;
-}
-.mega-menu-wrapper .bordered-btn{
-    color: #fff;
-}
 
 .callToaction h4 {
     text-transform: capitalize;
     font-size: 22px;
 }
 
-.callToaction h4 a {
+.mainmenu .callToaction h4 a {
     color: #1DACF8;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.mainmenu .callToaction a.bordered-btn:hover{
+    color:#fff;
+}
+.mainmenu li.mega-menu ul {
+    width: 100%;
+    padding: 40px;
+}
 
-.mega-menu-wrapper h5 {text-align: left;padding-left: 15px;font-size: 10px;opacity: .8;}
-.logo img {
-    max-height: 45px;
+.mainmenu li.mega-menu {
+    position: static;
+}
+
+.mainmenu li.mega-menu ul ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    padding: 0;
+}
+
+
+.mega-menu h5 {
+    padding-left: 20px;
 }
 
 /*==================
@@ -406,6 +387,11 @@ span.menu-close {
     top: 10px;
     width: 100%;
     z-index: -1;
+}
+.hero-form-wrap input[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+    background: #fff;
 }
 .hero-form-header {
     margin-bottom: 25px;
@@ -944,6 +930,12 @@ a.service-read-more-btn i.zmdi {
 .cta-area.theme-4, .breadcrumb-bg{
     background-image: url(../img/background/cta-bg.jpg);
 }
+.cta-area.theme-4, .seo-analyse-bg{
+    background-image: url(../img/background/seo-analized.jpg);
+}
+.cta-area.theme-4, .contact-v1-bg{
+    background-image: url(../img/background/contact-v1.jpg);
+}
 .cta-area.theme-4, .breadcrumb-area{
     z-index: 1;
     position: relative;
@@ -1153,6 +1145,52 @@ a.play-btn {
     border: 1px solid #fff;
     margin-top: 22px;
 }
+/*==================
+   SEO page  CSS
+ ==================*/
+.seo-form-wrapper {
+    margin-top: 35px;
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    border-left: 2px solid #f8f8f8;
+}
+
+.seo-form-wrapper input {
+    width: 100%;
+}
+
+.seo-form-wrapper:after {
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0,0,0, .4);
+    top: 8px;
+    left: 8px;
+    height: 100%;
+    width: 100%;
+    content: '';
+    z-index: -1;
+}
+
+.seo-form-wrapper input[type='submit'] {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.seo-fill-form input[type="url"],input[type="text"] {
+    width: 46%;
+    margin: 0 1%;
+    background: #FBFBFB;
+}
+
+.seo-fill-form input[type="email"],textarea {
+    width: 96%;
+    background: #FBFBFB;
+}
+.seo-fill-form textarea{
+    height: 180px;
+}
+
+
 /*==================
    Price box  CSS
  ==================*/
@@ -1560,4 +1598,48 @@ a.single-bolg-post:hover .blog-text {
 .custom-faq .panel-heading {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+/*Contact-form css*/
+
+.contact-info span i {
+    position: absolute;
+    left: 0;
+    color: #00D5A0;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.contact-info span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+p.contact-info {
+    position: relative;
+    padding-left: 50px;
+}
+.contact-form input {
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 150px;
+    width: 100%;
+}
+
+.contact-form input[type="submit"] {
+    width: 20%;
+}
+
+form.contact-form-2 input[type="email"] {
+    width: 96%;
+}
+
+form.contact-form-2 input {
+    width: 47%;
+}
+
+form.contact-form-2 textarea {
+    height: 180px;
 }
