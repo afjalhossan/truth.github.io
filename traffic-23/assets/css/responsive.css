@@ -36,7 +36,54 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+ .logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav.mainmenu {
+    display: none;
+}
+
+.header-area .text-right {
+    text-align: center;
+}
+
+.hero-area {
+    padding: 50px 0;
+}
+
+.website-chcker-form {
+    margin: 0 0 30px;
+}
+.mobile-fix-pad {
+    padding: 50px 0;
+}
+
+.mobile-fix-left {
+    text-align: left;
+}
+.mobile-common-space {
+    height: 50px;
+}
+
+.email-subcribe {
+    margin: 0 0;
+}
+.breadcrumb-area {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin: 0;
+}
+.team-intro h4 span {
+    display: block;
+    font-size: 80%;
+    opacity: .8;
+}
+    
+    
     
 }
 /* Mobile Layout: 320px. */

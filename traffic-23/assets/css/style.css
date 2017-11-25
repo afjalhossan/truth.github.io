@@ -142,9 +142,7 @@ input[type="submit"], button[type="submit"] {
 .bg-gray {
     background-color: #fbfbfb;
 }
-.bordered-btn, input[type="submit"], button[type="submit"] {
-    background: #00D5A0;
-}
+
 /*==================
    Main Menu  CSS
  ==================*/
@@ -1345,7 +1343,7 @@ a.single-bolg-post:hover .blog-text {
 }
 
 .blog-bg-9 {
-    background-image: url(../img/blog/9jpg);
+    background-image: url(../img/blog/9.jpg);
 }
 
 .blog-thumb-wrap{

@@ -1,0 +1,149 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .bordered-btn, input[type="submit"], button[type="submit"] {
+    padding: 10px 10px;
+}
+    .hero-content h1 {
+    font-size: 40px;
+}
+    .slider-wrapper h2 {
+    font-size: 50px;
+    line-height: 60px;
+}
+    .case-study-wrap{
+        height: 280px;
+    }
+    .pdt{
+        padding-top: 20px;
+    }
+    .pdt-100{
+        padding-top: 30px;
+    }
+    .service-section:after {
+    width: 48%;
+    top: 0px;
+}
+    .case-study-wrap2 {
+    height: 270px;
+}
+    .email-subcribe{
+        margin:0;
+    }
+    .section-title{
+        margin-bottom: 20px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav.mainmenu {
+    display: none;
+}
+
+.header-area .text-right {
+    text-align: center;
+}
+
+.hero-area {
+    padding: 50px 0;
+}
+
+.website-chcker-form {
+    margin: 0 0 30px;
+}
+.mobile-fix-pad {
+    padding: 50px 0;
+}
+
+.mobile-fix-left {
+    text-align: left;
+}
+.mobile-common-space {
+    height: 50px;
+}
+
+.email-subcribe {
+    margin: 0 0;
+}
+.breadcrumb-area {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin: 0;
+}
+.team-intro h4 span {
+    display: block;
+    font-size: 80%;
+    opacity: .8;
+}
+.footer-area .col-md-3{
+    overflow:hidden;
+}
+.hero-content h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+.hero-form {
+    margin-top: 50px;
+}
+.single-bolg-post {
+    margin-bottom: 30px;
+}
+.hero-form-wrapper {
+    margin-top:0px;
+}
+
+.slider-wrapper h2 {
+    font-size: 42px;
+    line-height: 55px;
+    margin-top: 45px;
+}
+.home-3 .header-area .col-md-2.text-right{
+    display: none;
+}
+.footer-area-home-3,.social-links.text-right,.copyright-area-2,.copyright-area-2 ul {
+    text-align: center;
+}
+
+.copyright-area-2 ul {
+    margin-top: 20px;
+}
+img.gallery-1 {
+    position: inherit;
+    top: 0;
+}
+
+.tale-gallery {
+    margin-bottom: 30px;
+}
+.service-section:after {
+    display: none;
+}
+
+.service-section {
+    background: #F3F3F3;
+}
+.single-price-box.theme-2 {
+    margin-bottom: 30px;
+}
+.comment-form textarea#comments {
+    height: 150px;
+}
+    
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
