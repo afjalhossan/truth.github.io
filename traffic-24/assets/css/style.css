@@ -1473,7 +1473,9 @@ a.single-bolg-post:hover .blog-text {
     margin-bottom: 30px;
 }
 
-
+.footer-logo {
+    margin-bottom: 20px;
+}
 .footer-area-home-3 {
     color: #999;
     padding: 22px 0;

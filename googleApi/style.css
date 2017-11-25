@@ -1,0 +1,24 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a,a:hover { text-decoration: none; color: inherit}
