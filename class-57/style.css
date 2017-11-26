@@ -1,0 +1,140 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus textare:focus, input:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a,a:hover { text-decoration: none; color: inherit}
+
+.athour img {
+    max-height: 110px;
+    text-align: center;
+    margin-top: -30px;
+    padding-right: 20px;
+}
+
+.athour h3 {
+    display: inline-block;
+}
+
+.athour {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.athour h3 span {
+    display: inline-block;
+    font-size: 70%;
+    text-transform: none;
+    opacity: .5;
+}
+
+.single-testimonial-item {
+    padding: 80px;
+    box-shadow: 0 0 15px #C9ADAD;
+}
+
+.testimonial-content {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+ul.author-dis {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-y: scroll;
+    height: 280px;
+    position: relative;
+}
+
+.author-dis img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: -15px;
+}
+
+ul.author-dis h3 {
+    display: inline-block;
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 20px;
+    max-width: 195px;
+}
+
+ul.author-dis h3 span {
+    display: inline-block;
+    opacity: .5;
+    font-size: 70%;
+}
+
+.author-dis li {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    opacity: .5;
+}
+.author-dis li.active{
+	opacity: 1;
+}
+.testimonial-wrapper {
+    position: relative;
+}
+
+.right-title {
+    font-size: 40px;
+    color: #ccc;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(-90deg);
+    width: 350px;
+    bottom: 150px;
+    left: -230px;
+}
+
+.right-title:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 2px;
+    background: #ccc;
+    content: '';
+    width: 100%;
+}
+
+.right-title span {
+    position: relative;
+    background: #fff;
+    z-index: 2;
+}
+.ps>.ps__scrollbar-y-rail {
+    opacity: 1;
+
+}
