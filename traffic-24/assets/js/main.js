@@ -80,7 +80,10 @@
         })
         $(".play-btn,.video-play-btn").magnificPopup({
             type:'video'
-        })
+        });
+        $(".traffic-menu").slicknav({
+            prependTo:"#mobile-menu-wrap"
+        });
         
 
     });

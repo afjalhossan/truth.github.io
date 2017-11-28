@@ -44,3 +44,12 @@
   display: block;
 }
 
+.slicknav_nav .slicknav_row:hover {
+    background: #00D5A0;
+}
+.slicknav_btn {
+    background: #00D5A0;
+}
+.slicknav_nav ul a:hover {
+    background: #00D5A0;;
+}
