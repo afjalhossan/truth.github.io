@@ -346,7 +346,7 @@ span.menu-close {
 .mainmenu li:hover li:hover {
     background: #ED476D;
 }
-.mainmenu li:hover li:hover a {
+.mainmenu li:hover li:hover a{
     color: #333;
 }
 
